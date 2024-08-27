@@ -9,7 +9,7 @@
   import { UserContextProvider } from '../context/userContext'
   import Dashboard from './pages/Dashboard'
 
-  axios.defaults.baseURL = 'http://localhost:8000'
+  axios.defaults.baseURL = 'https://mern-form-api-ten.vercel.app/'
   axios.defaults.withCredentials = true
 
   function App() {
