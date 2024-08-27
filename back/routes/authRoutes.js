@@ -6,7 +6,7 @@ const { test, registerUser, loginUser, getProfile} = require('../controllers/aut
 router.use(
     cors({
         credentials: true,
-        origin: 'https://mern-form-front.vercel.app/'
+        origin: 'https://mern-form-front.vercel.app'
     })
 )
 
